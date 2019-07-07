@@ -1,0 +1,19 @@
+.main-button {
+  margin:0;
+  width: 172px;
+height: 41px;
+background-color: #5094f2;
+border: none;
+color: #ffffff;
+font-size: 20px;
+font-weight: 300;
+
+}
+
+.button-description {
+  margin: 0;
+}
+.button-description::before {
+  content:'';
+  background-image: url(../images/icon_button.png);
+}
