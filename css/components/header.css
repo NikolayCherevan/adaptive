@@ -51,5 +51,24 @@ tr:nth-child(2n+1) {
   }
   .burger {
     display: none;  }
+  .col-1-3 {
+    width: 33.3%;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .cart-container {
+    display: flex;
+  }
+  .layout {
+    width: 50%;
+    margin-right: 30px;
 
-}
+  }
+  .layout2 {
+    width: 60%;
+    margin-top: 50px;
+  }
+  }

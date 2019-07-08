@@ -1,3 +1,13 @@
 .section {
   overflow: hidden;
 }
+.list li {
+  list-style-type: none;
+color: #909090;
+font-size: 17px;
+font-weight: 300;
+line-height: 36px;
+}
+.list {
+  padding: 0px;
+}

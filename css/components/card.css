@@ -1,22 +1,66 @@
 .card {
   padding: 10px;
+  display: flex;
+  align-items: center;
 }
 .card .card-header {
-  
+  position: relative;
+  width: 80px;
+  height: 80px;
+border-radius: 50%;
+margin-right: 20px;
+margin-bottom: 20px;
 }
 .card .card-body {
-  
+  width: 230px;
+  color: #909090;
+font-size: 12px;
+font-weight: 400;
 }
-.card .card-image > img {
-  display: block;
+
+.card-img {
+  position: absolute;
+  width: 60px;
+height: 60px;
+top: 50%;
+right: 8%;
+  transform: translateY(-50%);
 }
 .card .card-title {
-  
+
+color: #5094f2;
+font-size: 20px;
+font-weight: 400;
+
 }
 .card .card-description {
-  
+
 }
 
 .card-portfolio .card-title {
-  
+
+}
+.pencil {
+  background-color: #5094f2;
+}
+.tele {
+  background-color: #d94748;
+}
+.basket {
+  background-color: #ebbb11;
+}
+.blue-basket {
+  margin: 0 auto;
+  width: 215px;
+height: 162px;
+}
+.gray-title {
+  padding-bottom: 30px;
+text-align: center;
+color: #6f7173;
+font-size: 42px;
+font-weight: 400;
+}
+.bullets {
+  text-align: left;
 }

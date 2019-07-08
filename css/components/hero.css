@@ -18,9 +18,8 @@ background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 .hero-foreground {
 }
 .ipone {
-  width: 100px;
-  height: 100%;
-margin-right: 30px;
+  width: 100%;
+
 }
 .hero-container {
   padding-top: 30px;
@@ -28,9 +27,17 @@ margin-right: 30px;
   display: flex;
   align-items: center;
 }
+.hero-left {
+margin-right: 30px;
+width: 20vw;
+width: 30%;
+}
 .hero-right {
+  width: 60vw;
+  width: 70%;
 color: #ffffff;
 font-size: 12px;
+
 }
 
 .hero-description {
