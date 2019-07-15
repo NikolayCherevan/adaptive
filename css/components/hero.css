@@ -6,6 +6,7 @@
 
 .hero .hero-title {
 margin: 0;
+text-align: center;
 }
 .hero-background {
 position: absolute;
@@ -27,36 +28,54 @@ background-size: cover;
   right: 0;
   position: absolute;
   background-image: url(../../images/zyb.png);
+  display: none;
 }
-.hero-foreground {
+ .hero-foreground {
 }
 .ipone {
-  width: 100%;
+height: auto;
 
 }
 .hero-container {
+  position: relative;
   padding-top: 30px;
-  padding-bottom: 30px;
+  margin-bottom: 10px;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 .hero-left {
+
+  width: 40%;
 margin-right: 30px;
-width: 20vw;
-width: 30%;
 }
 .hero-right {
-  width: 60vw;
-  width: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 color: #ffffff;
-font-size: 12px;
+font-size: 19px;
 
 }
 
 .hero-description {
-  width: 200px;
 }
 .description-content {
   padding-top: 20px;
   display: block;
+}
+@media screen and (min-width: 720px) {
+  .hero-border {
+    display: block;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .hero-right {
+    display: flex;
+    flex-direction: column;
+    align-items:  flex-start;
+    margin-left: 30px; }
 }

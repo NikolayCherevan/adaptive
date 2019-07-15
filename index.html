@@ -4,8 +4,10 @@
   <head>
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
     <meta charset="utf-8">
     <link rel="shortcut icon" href="images/shake.png" type="image/png">
+
     <title> Adaptive site </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -15,8 +17,9 @@
       <div class="container">
         <header class="header">
           <div class="header-left">
-            <a class="logo-link" href="index.html"> <span class="logo"><div class="icon-quotes-left"> </div> </span> Prechu </a></div>
+            <a class="logo-link" href="index.html"> <span class="logo"><img  class="logo_pic" src="images/logo@2x.jpg"> </span> Prechu </a></div>
           <div class="header-right">
+
             <div class="burger">
               <table class="burger-nav">
                 <tr>
@@ -49,15 +52,39 @@
       <section class="hero">
         <div class="hero-background"> </div>
         <div class="hero-border"> </div>
-        <div class="container hero-container">
-          <div class="hero-left"> <img class="ipone" src="images/iphone@2x.svg" alt="image"> </div>
-          <div class="hero-right">
-            <h1 class="hero-title"> Lorem Ipsum is simply </h1>
-            <p class="hero-description"> dummy text of the <span class="description-content"> printing & typesetting </span> </p>
-            <button class="main-button"> <p class="button-description"> Sing up now </p></button>
-          </div>
+
+          <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide container hero-container">  <div class="hero-left"> <img class="ipone" src="images/iphone@2x.svg" alt="image"> </div>
+              <div class="hero-right">
+                <h1 class="hero-title"> Lorem Ipsum is simply </h1>
+                <p class="hero-description"> dummy text of the <span class="description-content"> printing & typesetting </span> </p>
+                <button class="main-button"><img class="btn_pic" src="images/Shape_2.svg"><p class="button-description"> Sing up now </p></button>
+              </div></div>
+            <div class="swiper-slide container hero-container"> <div class="hero-left"> <img class="ipone" src="images/phone1.png" alt="image"> </div><div class="hero-right">
+              <h1 class="hero-title"> Lorem Ipsum is simply </h1>
+              <p class="hero-description"> dummy text of the <span class="description-content"> printing & typesetting </span> </p>
+              <button class="main-button"><img class="btn_pic" src="images/Shape_2.svg"><p class="button-description"> Sing up now </p></button>
+            </div></div>
+            <div class="swiper-slide container hero-container"> <div class="hero-left"> <img class="ipone" src="images/phone2.png" alt="image"> </div><div class="hero-right">
+              <h1 class="hero-title"> Lorem Ipsum is simply </h1>
+              <p class="hero-description"> dummy text of the <span class="description-content"> printing & typesetting </span> </p>
+              <button class="main-button"><img class="btn_pic" src="images/Shape_2.svg"><p class="button-description"> Sing up now </p></button>
+            </div></div>
+            ...
         </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+
+
       </section>
+
+
       <main class="main">
         <section>
         <div class="container">
@@ -119,5 +146,10 @@
       </main>
       <footer class="footer"> Copyright © 2012-2013 cssauthor.com</footer>
     </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <script src="js/swiper.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+  <script src="js/main.js">
+  </script>
 </div>
 </html>

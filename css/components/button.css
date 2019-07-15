@@ -1,15 +1,29 @@
 .main-button {
   margin:0;
-  width: 150px;
 height: 41px;
 background-color: #5094f2;
 border: none;
 color: #ffffff;
-font-size: 20px;
+display: flex;
+font-size: 30px;
 font-weight: 300;
-
+align-items: center;
+justify-content: space-between;
 }
-
+.main-button:hover {
+  opacity: 0.8;
+  cursor: pointer; 
+}
 .button-description {
   margin: 0;
+}
+.btn_pic {
+  margin-right: 15px;
+  width: 33px;
+height: 33px;
+}
+@media screen and (min-width: 720px) {
+  .main-button {
+font-size: 15px;
+}
 }

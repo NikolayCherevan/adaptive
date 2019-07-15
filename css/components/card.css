@@ -1,15 +1,20 @@
 .card {
-  padding: 10px;
   display: flex;
   align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.card .card-header {
-  position: relative;
+ .card-header {
+
   width: 80px;
   height: 80px;
 border-radius: 50%;
 margin-right: 20px;
 margin-bottom: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .card .card-body {
   width: 230px;
@@ -17,17 +22,15 @@ margin-bottom: 20px;
 font-size: 12px;
 font-weight: 400;
 }
-
+.card img {
+  width: 50px;
+height: 50px;
+}
 .card-img {
-  position: absolute;
-  width: 60px;
-height: 60px;
-top: 50%;
-right: 8%;
-  transform: translateY(-50%);
+
+margin: 0;
 }
 .card .card-title {
-
 color: #5094f2;
 font-size: 20px;
 font-weight: 400;
@@ -75,5 +78,9 @@ font-weight: 400;
   .cart-container {
     display: flex;
   }
-
+  .blue-basket {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
   }
