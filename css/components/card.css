@@ -64,3 +64,16 @@ font-weight: 400;
 .bullets {
   text-align: left;
 }
+
+@media screen and (min-width: 720px) {
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .cart-container {
+    display: flex;
+  }
+
+  }

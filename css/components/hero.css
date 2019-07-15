@@ -9,11 +9,24 @@ margin: 0;
 }
 .hero-background {
 position: absolute;
-z-index: -1;
-width: 100%;
-height: 100%;
-background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-
+z-index: -2;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background-image: url(../../images/dsfsdfsdfds.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.hero-border {
+  z-index: -1;
+  height: 6.5px;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background-image: url(../../images/zyb.png);
 }
 .hero-foreground {
 }
