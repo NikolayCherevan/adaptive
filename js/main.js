@@ -7,3 +7,13 @@ var mySwiper = new Swiper ('.swiper-container', {
   },
 
 })
+
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+
+$( document ).ready(function(){
+	  $( ".burger" ).click(function(){
+	    $( ".nav-mobile" ).slideToggle();
+	  });
+	});
